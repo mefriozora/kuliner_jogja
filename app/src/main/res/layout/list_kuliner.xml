@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#75a0ff2d">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/IvKuliner"
+                android:src="@color/cardview_dark_background" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="GUDEG"
+                android:id="@+id/TxtNamaKuliner"
+                android:layout_marginLeft="50dp"
+                android:textSize="30sp"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/IvKuliner"
+                android:layout_toEndOf="@+id/IvKuliner" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

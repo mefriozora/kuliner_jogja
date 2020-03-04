@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KulinerJogja</string>
+    <string name="deskripsi_home">Yogyakarta merupakan satu-satunya kota yang memiliki gelar Daerah Istimewa Yogyakarta. Kota ini juga memiliki berbagai tempat wisata yang sangat terkenal, maka dari itu tak salah jika kota ini adalah salah satu kota pariwisata yang ada di Indonesia. \n\n
+    Pesona kota ini bukan hanya pada tempat dan pemandangan alamnya yang indah, melainkan budaya dan pastinya kuliner-kulinernya yang begitu menarik, Karena banyak orang yang datang ke kota ini bukan hanya untuk berwisata alam , tetapi juga berwisata kuliner\n\n
+    </string>
+    <string name="lilis">LILIS SURYANI \n
+    3163111051</string>
+    <string name="zakir">MUDZAKIR R\n
+    3163111055</string>
+    <string name="indri">ROCHMAH INDRI \n
+    3163111088</string>
+    <string name="soleh">M.SHOLEH \n
+    3163111089</string>
+    <string name="mefri">MEFRI A \n
+    3163111096</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

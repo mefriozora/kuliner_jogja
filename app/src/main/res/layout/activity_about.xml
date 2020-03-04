@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="com.example.admin.kulinerjogja.about">
+
+    <ImageView
+        android:id="@+id/lilis"
+        android:layout_width="178dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user"
+        android:layout_alignTop="@+id/zakir"
+        android:layout_toLeftOf="@+id/ztexttext"
+        android:layout_toStartOf="@+id/ztexttext"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="26dp" />
+
+    <TextView
+        android:id="@+id/lilistext"
+        android:layout_width="124dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="14dp"
+        android:paddingLeft="20dp"
+        android:text="@string/lilis"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_below="@+id/lilis"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/lilis"
+        android:layout_alignEnd="@+id/lilis" />
+
+    <ImageView
+        android:id="@+id/zakir"
+        android:layout_width="178dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/ztexttext"
+        android:layout_width="124dp"
+        android:layout_height="89dp"
+        android:paddingLeft="20dp"
+        android:text="@string/zakir"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/lilistext"
+        android:layout_alignBottom="@+id/lilistext"
+        android:layout_alignRight="@+id/zakir"
+        android:layout_alignEnd="@+id/zakir"
+        android:layout_alignLeft="@+id/zakir"
+        android:layout_alignStart="@+id/zakir" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/lilistext"
+        android:layout_alignEnd="@+id/lilistext"
+        android:id="@+id/indri" />
+
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="80dp"
+        android:text="@string/indri"
+        android:layout_marginTop="310dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/indri"
+        android:layout_alignEnd="@+id/indri"
+        android:paddingLeft="15dp"
+        android:id="@+id/indritext" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user"
+        android:layout_alignTop="@+id/indri"
+        android:layout_alignLeft="@+id/ztexttext"
+        android:layout_alignStart="@+id/ztexttext"
+        android:id="@+id/soleh" />
+
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="80dp"
+        android:text="@string/soleh"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_alignBaseline="@+id/indritext"
+        android:layout_alignBottom="@+id/indritext"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView8" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/indri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp" />
+
+    <TextView
+        android:layout_width="154dp"
+        android:layout_height="80dp"
+        android:text="@string/mefri"
+        android:textSize="18sp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
